@@ -1,0 +1,28 @@
+[project]
+name = "srivardhan-langchain-course"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "srivardhan84", email = "srivardhan84@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "black>=26.10.1",
+    "dotenv>=0.9.9",
+    "google-genai>=3.4.0",
+    "isort>=9.0.2",
+    "langchain>=1.5.0",
+    "langchain-google-genai>=4.5.0",
+    "langchain-ollama>=1.1.0",
+    "langchain-openai>=1.8.0",
+    "langsmith>=0.14.17",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+srivardhan-langchain-course = "srivardhan_langchain_course:main"
+
+[build-system]
+requires = ["uv_build>=0.13.9,<0.14.0"]
+build-backend = "uv_build"
